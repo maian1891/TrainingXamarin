@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainingXamarin.Views.MessageCenterV"
+             Title="Message Center">
+    
+    <StackLayout Padding="0,20,0,0">
+        <Button Text="Say Hi"
+                Clicked="Button_Clicked_Hi"/>
+        
+        <Button Text="Say Hi to John"
+                Clicked="Button_Clicked_HiJohn"/>
+        
+        <Button Text = "Unsubscribe from alert"
+                Clicked="Button_Clicked_Unsubscribe"/>
+
+        <Button Text="Navigator"
+                Clicked="Button_Clicked_Navigator"/>
+
+        <ListView x:Name="listView"/>
+    </StackLayout>
+    
+</ContentPage>
